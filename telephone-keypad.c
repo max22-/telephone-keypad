@@ -30,7 +30,39 @@ int main()
             case '1':
 				timer(RESET);
 				stateMachine(KEY1);
-				break;			
+				break;
+            case '2':
+				timer(RESET);
+				stateMachine(KEY2);
+				break;
+            case '3':
+				timer(RESET);
+				stateMachine(KEY3);
+				break;
+            case '4':
+				timer(RESET);
+				stateMachine(KEY4);
+				break;
+            case '5':
+				timer(RESET);
+				stateMachine(KEY5);
+				break;
+            case '6':
+				timer(RESET);
+				stateMachine(KEY6);
+				break;
+            case '7':
+				timer(RESET);
+				stateMachine(KEY7);
+				break;
+            case '8':
+				timer(RESET);
+				stateMachine(KEY8);
+				break;
+            case '9':
+				timer(RESET);
+				stateMachine(KEY9);
+				break;
             case ERR:
                 break;
             default:
