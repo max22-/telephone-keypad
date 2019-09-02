@@ -1,7 +1,7 @@
 all: telephone-keypad
 
-telephone-keypad: main.c
-	gcc main.c -o telephone-keypad -lncurses
+telephone-keypad: telephone-keypad.c
+	gcc telephone-keypad.c -o telephone-keypad -lncurses
 	
 .PHONY: clean
 
